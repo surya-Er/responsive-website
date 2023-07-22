@@ -1,0 +1,86 @@
+/* font style poppins */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+
+  }
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* navbar */
+
+  #navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+  }
+  .bold{
+    font-size: 25px;
+
+  }
+  li{
+    padding: 5px;
+  }
+  .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+  }
+  .nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+  }
+  .Row{display: flex;
+    flex-wrap: wrap;
+}
+
+/* home */
+
+span{
+    color: blue;
+}
+p{
+    font-size: 18px;
+}
+
+/* about */
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+
+/* services */
+
+.card img{
+    height: 200px;
+    transition: .5s;
+
+
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+/* contacts */
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0.2),
+               -2px 2px 5px rgba(0,0,0.05);
+               border-radius: 30px;
+}
